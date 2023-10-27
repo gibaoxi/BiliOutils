@@ -26,4 +26,4 @@ jobs:
           sudo docker run \
            --env BILITOOLS_CONFIG="${{ secrets.BILITOOLS_CONFIG }}" \
            -i --rm \
-           catlair/BiliOutils:latest
+           catlair/bilitool:latest
